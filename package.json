@@ -1,0 +1,24 @@
+{
+  "name": "taskmanager_poo",
+  "version": "1.0.0",
+  "description": "Projeto para a disciplina de Paradigmas de Programação que envolve a criação de um Gerenciador de Tarefas feito em POO com NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "listen": "nodemon index.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "TaskManager",
+    "POO"
+  ],
+  "author": "Bryan Souza, Eduardo Rosa, Luiz Calazans, Luís da Silveira e Vinícius Cavalheiro",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
+  }
+}
